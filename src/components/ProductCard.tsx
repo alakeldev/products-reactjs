@@ -26,7 +26,7 @@ const ProductCard = ({product}: IProps) => {
 
         <div className="flex items-center justify-between space-x-2">
             <Button className="bg-indigo-400" width="w-full">Edit </Button> 
-            <Button className="bg-red-600 ">Delete</Button>
+            <Button className="bg-red-600" width="w-full">Delete</Button>
         </div>
 
     </div>

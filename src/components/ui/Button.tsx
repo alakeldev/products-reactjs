@@ -8,7 +8,7 @@ interface IProps {
 
 const Button = ({ children, className, width, ...rest }: IProps) => {
   return (
-   <button className={`${className} ${width} p-2 w-full rounded-md text-white`} {...rest}>{ children }</button>
+   <button className={`${className} ${width} p-2 rounded-md`} {...rest}>{ children }</button>
   )
 }
 
